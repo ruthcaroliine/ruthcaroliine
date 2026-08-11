@@ -1,47 +1,55 @@
 
-<h1 align="center">Hi, I'm Ruth 👋</h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:E63946&height=200&section=header&text=Hi,%20I'm%20Ruth%20%F0%9F%91%8B&fontColor=ffffff&fontSize=42&fontAlignY=38&animation=fadeIn" width="100%"/>
+</p>
 
 <h3 align="center">AI/ML Engineer in training — building agents, retrieval systems, and backends that don't fall over</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Building+LLM+agents+%26+RAG+pipelines;CS+%40+VIT-AP+University;Ex-Intern+%40+Quiddity%2C+Hyderabad" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=E63946&center=true&vCenter=true&width=600&lines=Building+LLM+agents+%26+RAG+pipelines;CS+%40+VIT-AP+University;Ex-Intern+%40+Quiddity%2C+Hyderabad" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Resume-000000?style=for-the-badge&logo=readdotcv&logoColor=white" /></a>
-  <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=E63946" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Resume-000000?style=for-the-badge&logo=readdotcv&logoColor=E63946" /></a>
+  <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=E63946" /></a>
 </p>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/-black?style=flat-square&color=E63946&label=%20" height="4" width="100%"/>
+</p>
 
-### 👩‍💻 About me
+###  About me
 
 I'm a Computer Science undergrad specializing in AI/ML at VIT-AP University. I previously interned at **Quiddity** in Hyderabad, where I built a multilingual RAG agent. I like building the parts of AI systems that most demos skip — retry logic, validation, sandboxing, and structure-aware retrieval — rather than stopping at "the model gave an answer."
 
-- 🔭 Currently building an **autonomous coding agent** (self-correcting code execution in a Docker sandbox)
-- 🌱 Currently deepening my knowledge of **agentic systems** and **retrieval architectures**
-- 🤝 Open to AI/ML engineering and backend internship/placement opportunities
-- ⚡ Fun fact: I'd rather debug a retry loop than write documentation — which is exactly why every project below has one
+-  Currently building an **autonomous coding agent** (self-correcting code execution in a Docker sandbox)
+-  Currently deepening my knowledge of **agentic systems** and **retrieval architectures**
+-  Open to AI/ML engineering and backend internship/placement opportunities
+-  Fun fact: I'd rather debug a retry loop than write documentation — which is exactly why every project below has one
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/-black?style=flat-square&color=E63946&label=%20" height="4" width="100%"/>
+</p>
 
 ### 🛠️ Tech stack
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Milvus-00A1EA?style=flat-square&logo=milvus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=E63946" />
+  <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=E63946" />
+  <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=E63946" />
+  <img src="https://img.shields.io/badge/Milvus-000000?style=for-the-badge&logo=milvus&logoColor=E63946" />
+  <img src="https://img.shields.io/badge/Gemini_API-000000?style=for-the-badge&logo=googlegemini&logoColor=E63946" />
+  <img src="https://img.shields.io/badge/pandas-000000?style=for-the-badge&logo=pandas&logoColor=E63946" />
+  <img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=postgresql&logoColor=E63946" />
+  <img src="https://img.shields.io/badge/pytest-000000?style=for-the-badge&logo=pytest&logoColor=E63946" />
+  <img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk&logoColor=E63946" />
+  <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=E63946" />
 </p>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/-black?style=flat-square&color=E63946&label=%20" height="4" width="100%"/>
+</p>
 
 ### 📌 Featured projects
 
@@ -49,51 +57,46 @@ I'm a Computer Science undergrad specializing in AI/ML at VIT-AP University. I p
 <tr>
 <td width="50%" valign="top">
 
-**[🔎 Developer Knowledge Assistant](#)**
+**🔎 [Developer Knowledge Assistant](#)**
 RAG-powered assistant for codebases — embeddings, vector search, FastAPI backend.
-`Python` `FastAPI` `Embeddings` `Vector Search`
+<br>
+<img src="https://img.shields.io/badge/-Python-000000?style=flat-square&logoColor=E63946"/> <img src="https://img.shields.io/badge/-FastAPI-000000?style=flat-square&logoColor=E63946"/> <img src="https://img.shields.io/badge/-Vector%20Search-000000?style=flat-square&logoColor=E63946"/>
 
 </td>
 <td width="50%" valign="top">
 
-**[🗃️ Text-to-SQL Interface](#)**
+**🗃️ [Text-to-SQL Interface](#)**
 Natural language → SQL translation over relational databases.
-`Python` `LLMs` `SQL` `Backend`
+<br>
+<img src="https://img.shields.io/badge/-Python-000000?style=flat-square&logoColor=E63946"/> <img src="https://img.shields.io/badge/-LLMs-000000?style=flat-square&logoColor=E63946"/> <img src="https://img.shields.io/badge/-Backend-000000?style=flat-square&logoColor=E63946"/>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**[🌐 Multilingual RAG Agent](#)** `in progress`
+**🌐 [Multilingual RAG Agent](#)** 
 Hybrid retrieval over multilingual, OCR'd documents — structure-aware chunking, Milvus, Gemini API.
-`Milvus` `OCR` `NLP` `Translation`
+<br>
+<img src="https://img.shields.io/badge/-Milvus-000000?style=flat-square&logoColor=E63946"/> <img src="https://img.shields.io/badge/-OCR-000000?style=flat-square&logoColor=E63946"/> <img src="https://img.shields.io/badge/-NLP-000000?style=flat-square&logoColor=E63946"/>
 
 </td>
 <td width="50%" valign="top">
 
-**[🤖 Autonomous Coding Agent](#)** `in progress`
+**🤖 [Autonomous Coding Agent](#)** <img src="https://img.shields.io/badge/in%20progress-E63946?style=flat-square"/>
 Self-correcting code agent: generate → sandbox execute → observe → fix → retry, with bounded validation.
-`Docker` `Agents` `Tool Use` `FastAPI`
+<br>
+<img src="https://img.shields.io/badge/-Docker-000000?style=flat-square&logoColor=E63946"/> <img src="https://img.shields.io/badge/-Agents-000000?style=flat-square&logoColor=E63946"/> <img src="https://img.shields.io/badge/-Tool%20Use-000000?style=flat-square&logoColor=E63946"/>
 
 </td>
 </tr>
 </table>
 
----
-
-### 📊 GitHub stats
-
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://img.shields.io/badge/-black?style=flat-square&color=E63946&label=%20" height="4" width="100%"/>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" />
-</p>
 
----
 
 <p align="center"><i>📫 Reach out — I'm always happy to talk about agents, retrieval systems, or internships.</i></p>
 
@@ -105,9 +108,11 @@ SETUP NOTES FOR RUTH (delete this comment block before publishing):
 2. Replace every "#" link with your real repo URLs, and YOUR_USERNAME with your actual
    GitHub username (used in the stats/streak image URLs).
 3. Replace the LinkedIn/Resume/Email badge links with your real links.
-4. The typing animation, badges, and stats widgets are all free third-party services
-   (readme-typing-svg, shields.io, github-readme-stats, github-readme-streak-stats) —
-   no signup needed, they just read your public GitHub username.
-5. Stats widgets look best once you have a few weeks of real commit activity —
-   if your account is new, it's fine to launch without them and add later.
+4. Color theme is red (#E63946) + black throughout — change the hex code in every URL
+   if you ever want to swap the accent color; it's the same code repeated everywhere.
+5. The waving banner top/bottom, typing animation, badges, and stats widgets are all
+   free third-party services (capsule-render, readme-typing-svg, shields.io,
+   github-readme-stats, github-readme-streak-stats) — no signup needed.
+6. Stats widgets look best once you have a few weeks of real commit activity —
+   if your account is new, it's fine to launch without that section and add later.
 -->
