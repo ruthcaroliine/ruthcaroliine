@@ -10,9 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=E63946" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Resume-000000?style=for-the-badge&logo=readdotcv&logoColor=E63946" /></a>
-  <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=E63946" /></a>
+  <a href="https://www.linkedin.com/in/ruth-caroline-010a09289/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=E63946" /></a>
+  <a href="modiruthcaroline@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=E63946" /></a>
 </p>
 
 <p align="center">
@@ -57,7 +56,7 @@ I'm a Computer Science undergrad specializing in AI/ML at VIT-AP University. I p
 <tr>
 <td width="50%" valign="top">
 
-**🔎 [Developer Knowledge Assistant](#)**
+** [Developer Knowledge Assistant](#)**
 RAG-powered assistant for codebases — embeddings, vector search, FastAPI backend.
 <br>
 <img src="https://img.shields.io/badge/-Python-000000?style=flat-square&logoColor=E63946"/> <img src="https://img.shields.io/badge/-FastAPI-000000?style=flat-square&logoColor=E63946"/> <img src="https://img.shields.io/badge/-Vector%20Search-000000?style=flat-square&logoColor=E63946"/>
@@ -65,7 +64,7 @@ RAG-powered assistant for codebases — embeddings, vector search, FastAPI backe
 </td>
 <td width="50%" valign="top">
 
-**🗃️ [Text-to-SQL Interface](#)**
+** [Text-to-SQL Interface](#)**
 Natural language → SQL translation over relational databases.
 <br>
 <img src="https://img.shields.io/badge/-Python-000000?style=flat-square&logoColor=E63946"/> <img src="https://img.shields.io/badge/-LLMs-000000?style=flat-square&logoColor=E63946"/> <img src="https://img.shields.io/badge/-Backend-000000?style=flat-square&logoColor=E63946"/>
@@ -75,7 +74,7 @@ Natural language → SQL translation over relational databases.
 <tr>
 <td width="50%" valign="top">
 
-**🌐 [Multilingual RAG Agent](#)** 
+** [Multilingual RAG Agent](#)** 
 Hybrid retrieval over multilingual, OCR'd documents — structure-aware chunking, Milvus, Gemini API.
 <br>
 <img src="https://img.shields.io/badge/-Milvus-000000?style=flat-square&logoColor=E63946"/> <img src="https://img.shields.io/badge/-OCR-000000?style=flat-square&logoColor=E63946"/> <img src="https://img.shields.io/badge/-NLP-000000?style=flat-square&logoColor=E63946"/>
@@ -83,7 +82,7 @@ Hybrid retrieval over multilingual, OCR'd documents — structure-aware chunking
 </td>
 <td width="50%" valign="top">
 
-**🤖 [Autonomous Coding Agent](#)** <img src="https://img.shields.io/badge/in%20progress-E63946?style=flat-square"/>
+** [Autonomous Coding Agent](#)** <img src="https://img.shields.io/badge/in%20progress-E63946?style=flat-square"/>
 Self-correcting code agent: generate → sandbox execute → observe → fix → retry, with bounded validation.
 <br>
 <img src="https://img.shields.io/badge/-Docker-000000?style=flat-square&logoColor=E63946"/> <img src="https://img.shields.io/badge/-Agents-000000?style=flat-square&logoColor=E63946"/> <img src="https://img.shields.io/badge/-Tool%20Use-000000?style=flat-square&logoColor=E63946"/>
@@ -100,19 +99,3 @@ Self-correcting code agent: generate → sandbox execute → observe → fix →
 
 <p align="center"><i>📫 Reach out — I'm always happy to talk about agents, retrieval systems, or internships.</i></p>
 
-<!--
-SETUP NOTES FOR RUTH (delete this comment block before publishing):
-1. Save this file as README.md in a new repo named EXACTLY your GitHub username
-   (e.g. if your username is ruthcaroliine, repo = ruthcaroliine/ruthcaroliine).
-   GitHub auto-detects this and renders it as your profile page.
-2. Replace every "#" link with your real repo URLs, and YOUR_USERNAME with your actual
-   GitHub username (used in the stats/streak image URLs).
-3. Replace the LinkedIn/Resume/Email badge links with your real links.
-4. Color theme is red (#E63946) + black throughout — change the hex code in every URL
-   if you ever want to swap the accent color; it's the same code repeated everywhere.
-5. The waving banner top/bottom, typing animation, badges, and stats widgets are all
-   free third-party services (capsule-render, readme-typing-svg, shields.io,
-   github-readme-stats, github-readme-streak-stats) — no signup needed.
-6. Stats widgets look best once you have a few weeks of real commit activity —
-   if your account is new, it's fine to launch without that section and add later.
--->
