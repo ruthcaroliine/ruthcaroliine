@@ -1,11 +1,13 @@
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=egg&color=0:000000,100:E63946&height=150&section=header&text=ruth&fontColor=ffffff&fontSize=50&fontAlignY=55&animation=fadeIn&desc=AI%2FML%20Engineer&descAlignY=80&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=egg&color=0:000000,100:E63946&height=150&section=header&text=Hi, I'm ruthcaroliine&fontColor=ffffff&fontSize=50&fontAlignY=55&animation=fadeIn&desc=AI%2FML%20Engineer&descAlignY=80&descAlign=50" width="100%"/>
 </p>
 
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=1200&color=E63946&center=true&vCenter=true&width=560&lines=root%40ruth%3A~%24+whoami;building+self-correcting+systems;ex-intern+%40+quiddity" alt="terminal typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=1200&color=E63946&center=true&vCenter=true&width=560&lines=AI%2FML+enthusiast;ex-intern+%40+quiddity+infotech+llc;building+self-correcting+systems" alt="terminal typing" />
 </p>
+
 
 <p align="center"><img src="https://img.shields.io/badge/-black?style=flat-square&color=E63946&label=%20" height="3" width="60%"/></p>
 
@@ -19,8 +21,10 @@ Computer Science undergrad specializing in AI/ML at VIT-AP University. Previousl
 I care about what a system does when it fails — silent failure vs. self-diagnosis and recovery. That's the thread running through everything below.
 
 ```
-┌──(ruth@github)-[~]
+
+┌──(ruthcaroliine@github)-[~]
 └─$ ls stack/
+
 ```
 
 <p align="left">
@@ -38,7 +42,7 @@ I care about what a system does when it fails — silent failure vs. self-diagno
 <p align="center"><img src="https://img.shields.io/badge/-black?style=flat-square&color=E63946&label=%20" height="3" width="60%"/></p>
 
 ```
-┌──(ruth@github)-[~]
+┌──(ruthcaroliine@github)-[~]
 └─$ ls projects/
 ```
 
@@ -54,7 +58,7 @@ flowchart LR
     C --> E
     E --> F[LLM Answer]
 ```
-[→ repo](#)
+[→ repo](https://github.com/ruthcaroliine/developers-knowledge-assistant)
 
 ### `02_text-to-sql-interface`
 Translates natural language questions into SQL queries against a real database schema.
@@ -67,7 +71,7 @@ flowchart LR
     C --> D[(Database)]
     D --> E[Result]
 ```
-[→ repo](#)
+[→ repo](https://github.com/ruthcaroliine/text-to-sql)
 
 ### `03_multilingual-rag-agent`
 Hybrid retrieval over multilingual, OCR'd documents — structure-aware chunking, Milvus, Gemini API.
@@ -83,7 +87,7 @@ flowchart LR
     E --> G
     G --> H[Gemini Answer]
 ```
-[→ repo](#)
+[→ repo](https://github.com/ruthcaroliine/buildingRAG)
 
 ### `04_autonomous-coding-agent` `IN_PROGRESS`
 Self-correcting code execution: generate, sandbox, observe, fix, retry. Design complete, build underway.
@@ -101,32 +105,20 @@ flowchart TD
     G -->|no| F
     G -->|yes| H[Done]
 ```
-[→ repo](#)
+[→ repo](https://github.com/ruthcaroliine/Autonomous-Coding-Agent)
 
 <p align="center"><img src="https://img.shields.io/badge/-black?style=flat-square&color=E63946&label=%20" height="3" width="60%"/></p>
 
 ```
-┌──(ruth@github)-[~]
+┌──(ruthcaroliine@github)-[~]
 └─$ cat contact.txt
 ```
 
-LinkedIn: [add your link]
-Email: [add your email]
+LinkedIn: [https://www.linkedin.com/in/ruth-caroline-010a09289/]
+Email: [modiruthcaroline@gmail.com]
+LeetCode: [https://leetcode.com/u/ruthcaroliine/]
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=egg&color=0:E63946,100:000000&height=80&section=footer" width="100%"/>
 </p>
 
-<!--
-SETUP NOTES FOR RUTH (delete before publishing):
-1. Save as README.md in a repo named exactly your GitHub username — GitHub renders it
-   as your profile page automatically.
-2. Replace every "#" with real repo URLs, and the LinkedIn/email placeholders.
-3. Terminal prompt blocks (the ┌──(ruth@github)... lines) are plain text in code fences —
-   edit "ruth" to your actual username if you want it to match exactly.
-4. Mermaid diagrams have a dark theme init line at the top of each block so they render
-   black/red instead of GitHub's default light theme — edit the boxes/arrows if your
-   actual pipeline differs.
-5. Banner top/bottom and typing animation are free third-party services (capsule-render,
-   readme-typing-svg) — no signup needed.
--->
