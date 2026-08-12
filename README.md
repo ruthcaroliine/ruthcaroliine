@@ -9,11 +9,11 @@
 
 ### About
 
-I'm a Computer Science undergrad specializing in AI/ML at VIT-AP University. I previously interned at Quiddity in Hyderabad, where I built a multilingual RAG agent from the ground up — parsing, translation, retrieval, all of it.
+I'm a Computer Science undergrad specializing in AI/ML at VIT-AP University. I previously interned at Quiddity in Hyderabad, where I built a multilingual RAG agent from the ground up — parsing, translation, and retrieval.
 
-I don't ship demos that only work on the happy path. If something fails, I want to know why, and I want the system to recover on its own before I do.
+What I care about most in a system is what happens when things go wrong: does it fail silently, or does it tell you why and try to recover. That's the question behind most of what I build.
 
-Right now I'm building an autonomous coding agent: an LLM that writes code, runs it in a sandbox, reads its own failures, and fixes itself. No babysitting required.
+Right now I'm working on an autonomous coding agent — an LLM that writes code, runs it in a sandbox, reads its own failures, and retries with a fix.
 
 ---
 
@@ -27,18 +27,63 @@ Python, FastAPI, Docker, Milvus, Gemini API, SQL, Java, pandas, pytest
 
 **Developer Knowledge Assistant**
 RAG-powered assistant for codebases. Embeddings, vector search, FastAPI backend.
+
+```mermaid
+flowchart LR
+    A[Codebase] --> B[Chunk & Embed]
+    B --> C[(Vector Store)]
+    D[Developer Question] --> E[Retrieve Relevant Chunks]
+    C --> E
+    E --> F[LLM Answer]
+```
+
 [repo →](#)
 
 **Text-to-SQL Interface**
-Natural language in, SQL out. Built for real databases, not toy schemas.
+Translates natural language questions into SQL queries against a real database schema.
+
+```mermaid
+flowchart LR
+    A[Natural Language Question] --> B[LLM + Schema Context]
+    B --> C[Generated SQL]
+    C --> D[(Database)]
+    D --> E[Query Result]
+```
+
 [repo →](#)
 
 **Multilingual RAG Agent**
 Hybrid retrieval over multilingual, OCR'd documents. Structure-aware chunking, Milvus, Gemini API.
+
+```mermaid
+flowchart LR
+    A[Raw Document<br/>HTML / PDF / Scanned] --> B[OCR / Parsing]
+    B --> C[Language Detection<br/>& Translation]
+    C --> D[Structure-Aware Chunking]
+    D --> E[(Milvus)]
+    F[Query] --> G[Retrieve]
+    E --> G
+    G --> H[Gemini API Answer]
+```
+
 [repo →](#)
 
 **Autonomous Coding Agent** — in progress
 Self-correcting code execution: generate, sandbox, observe, fix, retry. Design is done, build is underway.
+
+```mermaid
+flowchart TD
+    A[Task] --> B[LLM Generates Code]
+    B --> C[Run in Docker Sandbox]
+    C --> D{Success?}
+    D -- Yes --> E[Validate Output]
+    D -- No --> F[LLM Analyzes Failure]
+    F --> B
+    E --> G{Valid?}
+    G -- Yes --> H[Done]
+    G -- No --> F
+```
+
 [repo →](#)
 
 ---
@@ -57,4 +102,7 @@ SETUP NOTES FOR RUTH (delete before publishing):
    free, no signup. Change "Ruth" in the URL text= param if you ever want different
    banner text, or drop the whole <p> block if you'd rather have zero images at all.
 4. No badges, no stats widgets, no emojis — kept it to your actual words.
+5. The flowcharts under each project use Mermaid syntax — GitHub renders these natively
+   in markdown, no image hosting or external service needed. Edit the boxes/arrows
+   directly in the ```mermaid code blocks if your actual pipeline differs.
 -->
