@@ -1,108 +1,132 @@
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:E63946&height=180&section=header&text=Ruth&fontColor=ffffff&fontSize=60&fontAlignY=45&animation=fadeIn" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=egg&color=0:000000,100:E63946&height=150&section=header&text=ruth&fontColor=ffffff&fontSize=50&fontAlignY=55&animation=fadeIn&desc=AI%2FML%20Engineer&descAlignY=80&descAlign=50" width="100%"/>
 </p>
 
-<h3 align="center">AI/ML engineer. I build the parts most people skip — retries, validation, sandboxing.</h3>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=1200&color=E63946&center=true&vCenter=true&width=560&lines=root%40ruth%3A~%24+whoami;building+self-correcting+systems;ex-intern+%40+quiddity" alt="terminal typing" />
+</p>
 
----
+<p align="center"><img src="https://img.shields.io/badge/-black?style=flat-square&color=E63946&label=%20" height="3" width="60%"/></p>
 
-### About
+```
+┌──(ruth@github)-[~]
+└─$ cat about.md
+```
 
-I'm a Computer Science undergrad specializing in AI/ML at VIT-AP University. I previously interned at Quiddity in Hyderabad, where I built a multilingual RAG agent from the ground up — parsing, translation, and retrieval.
+Computer Science undergrad specializing in AI/ML at VIT-AP University. Previously interned at Quiddity in Hyderabad, building a multilingual RAG agent from parsing to retrieval.
 
-What I care about most in a system is what happens when things go wrong: does it fail silently, or does it tell you why and try to recover. That's the question behind most of what I build.
+I care about what a system does when it fails — silent failure vs. self-diagnosis and recovery. That's the thread running through everything below.
 
-Right now I'm working on an autonomous coding agent — an LLM that writes code, runs it in a sandbox, reads its own failures, and retries with a fix.
+```
+┌──(ruth@github)-[~]
+└─$ ls stack/
+```
 
----
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=E63946" />
+  <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=E63946" />
+  <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=E63946" />
+  <img src="https://img.shields.io/badge/Milvus-000000?style=for-the-badge&logo=milvus&logoColor=E63946" />
+  <img src="https://img.shields.io/badge/Gemini_API-000000?style=for-the-badge&logo=googlegemini&logoColor=E63946" />
+  <img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=postgresql&logoColor=E63946" />
+  <img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk&logoColor=E63946" />
+  <img src="https://img.shields.io/badge/pandas-000000?style=for-the-badge&logo=pandas&logoColor=E63946" />
+  <img src="https://img.shields.io/badge/pytest-000000?style=for-the-badge&logo=pytest&logoColor=E63946" />
+</p>
 
-### Stack
+<p align="center"><img src="https://img.shields.io/badge/-black?style=flat-square&color=E63946&label=%20" height="3" width="60%"/></p>
 
-Python, FastAPI, Docker, Milvus, Gemini API, SQL, Java, pandas, pytest
+```
+┌──(ruth@github)-[~]
+└─$ ls projects/
+```
 
----
-
-### Projects
-
-**Developer Knowledge Assistant**
-RAG-powered assistant for codebases. Embeddings, vector search, FastAPI backend.
+### `01_developer-knowledge-assistant`
+RAG-powered assistant for codebases — embeddings, vector search, FastAPI backend.
 
 ```mermaid
+%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#000000','primaryTextColor':'#ffffff','primaryBorderColor':'#E63946','lineColor':'#E63946','tertiaryColor':'#000000'}}}%%
 flowchart LR
     A[Codebase] --> B[Chunk & Embed]
     B --> C[(Vector Store)]
-    D[Developer Question] --> E[Retrieve Relevant Chunks]
+    D[Question] --> E[Retrieve]
     C --> E
     E --> F[LLM Answer]
 ```
+[→ repo](#)
 
-[repo →](#)
-
-**Text-to-SQL Interface**
+### `02_text-to-sql-interface`
 Translates natural language questions into SQL queries against a real database schema.
 
 ```mermaid
+%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#000000','primaryTextColor':'#ffffff','primaryBorderColor':'#E63946','lineColor':'#E63946','tertiaryColor':'#000000'}}}%%
 flowchart LR
-    A[Natural Language Question] --> B[LLM + Schema Context]
-    B --> C[Generated SQL]
+    A[Question] --> B[LLM + Schema]
+    B --> C[SQL]
     C --> D[(Database)]
-    D --> E[Query Result]
+    D --> E[Result]
 ```
+[→ repo](#)
 
-[repo →](#)
-
-**Multilingual RAG Agent**
-Hybrid retrieval over multilingual, OCR'd documents. Structure-aware chunking, Milvus, Gemini API.
+### `03_multilingual-rag-agent`
+Hybrid retrieval over multilingual, OCR'd documents — structure-aware chunking, Milvus, Gemini API.
 
 ```mermaid
+%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#000000','primaryTextColor':'#ffffff','primaryBorderColor':'#E63946','lineColor':'#E63946','tertiaryColor':'#000000'}}}%%
 flowchart LR
-    A[Raw Document<br/>HTML / PDF / Scanned] --> B[OCR / Parsing]
-    B --> C[Language Detection<br/>& Translation]
-    C --> D[Structure-Aware Chunking]
+    A[Document] --> B[OCR / Parse]
+    B --> C[Translate]
+    C --> D[Chunk]
     D --> E[(Milvus)]
     F[Query] --> G[Retrieve]
     E --> G
-    G --> H[Gemini API Answer]
+    G --> H[Gemini Answer]
 ```
+[→ repo](#)
 
-[repo →](#)
-
-**Autonomous Coding Agent** — in progress
-Self-correcting code execution: generate, sandbox, observe, fix, retry. Design is done, build is underway.
+### `04_autonomous-coding-agent` `IN_PROGRESS`
+Self-correcting code execution: generate, sandbox, observe, fix, retry. Design complete, build underway.
 
 ```mermaid
+%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#000000','primaryTextColor':'#ffffff','primaryBorderColor':'#E63946','lineColor':'#E63946','tertiaryColor':'#000000'}}}%%
 flowchart TD
-    A[Task] --> B[LLM Generates Code]
-    B --> C[Run in Docker Sandbox]
+    A[Task] --> B[Generate Code]
+    B --> C[Docker Sandbox]
     C --> D{Success?}
-    D -- Yes --> E[Validate Output]
-    D -- No --> F[LLM Analyzes Failure]
+    D -->|no| F[Analyze Failure]
     F --> B
+    D -->|yes| E[Validate]
     E --> G{Valid?}
-    G -- Yes --> H[Done]
-    G -- No --> F
+    G -->|no| F
+    G -->|yes| H[Done]
 ```
+[→ repo](#)
 
-[repo →](#)
+<p align="center"><img src="https://img.shields.io/badge/-black?style=flat-square&color=E63946&label=%20" height="3" width="60%"/></p>
 
----
-
-### Contact
+```
+┌──(ruth@github)-[~]
+└─$ cat contact.txt
+```
 
 LinkedIn: [add your link]
 Email: [add your email]
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=egg&color=0:E63946,100:000000&height=80&section=footer" width="100%"/>
+</p>
 
 <!--
 SETUP NOTES FOR RUTH (delete before publishing):
 1. Save as README.md in a repo named exactly your GitHub username — GitHub renders it
    as your profile page automatically.
-2. Replace every "#" with your real repo URLs, and the LinkedIn/email placeholders.
-3. The banner at the top is the only image/widget left in — it's from capsule-render,
-   free, no signup. Change "Ruth" in the URL text= param if you ever want different
-   banner text, or drop the whole <p> block if you'd rather have zero images at all.
-4. No badges, no stats widgets, no emojis — kept it to your actual words.
-5. The flowcharts under each project use Mermaid syntax — GitHub renders these natively
-   in markdown, no image hosting or external service needed. Edit the boxes/arrows
-   directly in the ```mermaid code blocks if your actual pipeline differs.
+2. Replace every "#" with real repo URLs, and the LinkedIn/email placeholders.
+3. Terminal prompt blocks (the ┌──(ruth@github)... lines) are plain text in code fences —
+   edit "ruth" to your actual username if you want it to match exactly.
+4. Mermaid diagrams have a dark theme init line at the top of each block so they render
+   black/red instead of GitHub's default light theme — edit the boxes/arrows if your
+   actual pipeline differs.
+5. Banner top/bottom and typing animation are free third-party services (capsule-render,
+   readme-typing-svg) — no signup needed.
 -->
