@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=egg&color=0:000000,100:E63946&height=150&section=header&text=Hi, I'm ruthcaroliine&fontColor=ffffff&fontSize=50&fontAlignY=55&animation=fadeIn&desc=AI%2FML%20Engineer&descAlignY=80&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=egg&color=0:000000,100:E63946&height=150&section=header&text=Hi%2C%20I'm%20ruthcaroliine&fontColor=ffffff&fontSize=40&fontAlignY=55&animation=fadeIn&desc=AI%2FML%20Engineer&descAlignY=80&descAlign=50" width="100%"/>
 </p>
 
 
@@ -12,7 +12,7 @@
 <p align="center"><img src="https://img.shields.io/badge/-black?style=flat-square&color=E63946&label=%20" height="3" width="60%"/></p>
 
 ```
-┌──(ruth@github)-[~]
+┌──(ruthcaroliine@github)-[~]
 └─$ cat about.md
 ```
 
