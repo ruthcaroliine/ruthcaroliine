@@ -1,0 +1,116 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6EC6FF"/>
+      <stop offset="100%" stop-color="#B9E4FF"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7FD858"/>
+      <stop offset="100%" stop-color="#5AB33E"/>
+    </linearGradient>
+    <linearGradient id="titlebar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#FF6EC7"/>
+    </linearGradient>
+    <linearGradient id="avatarBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7A3B5E"/>
+      <stop offset="100%" stop-color="#4F2140"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="600" fill="url(#sky)"/>
+  <ellipse cx="950" cy="70" rx="90" ry="28" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="1030" cy="90" rx="70" ry="22" fill="#ffffff" opacity="0.75"/>
+  <ellipse cx="150" cy="50" rx="70" ry="20" fill="#ffffff" opacity="0.7"/>
+  <rect x="0" y="520" width="1200" height="80" fill="url(#hill)"/>
+
+  <!-- ============ MAIN PROFILE WINDOW ============ -->
+  <g>
+    <rect x="40" y="60" width="660" height="430" fill="#dbe9ff" stroke="#2b2b55" stroke-width="3"/>
+    <rect x="40" y="60" width="660" height="46" fill="url(#titlebar)"/>
+    <rect x="60" y="72" width="50" height="22" rx="3" fill="#f5f5f5" stroke="#2b2b55" stroke-width="2"/>
+    <text x="70" y="88" font-family="Courier New, monospace" font-size="14" fill="#7a4fd1">R</text>
+    <text x="125" y="90" font-family="Courier New, monospace" font-size="22" fill="#ffffff" font-weight="bold">ruthcaroliine</text>
+    <circle cx="638" cy="83" r="9" fill="#f5f5f5" stroke="#2b2b55" stroke-width="2"/>
+    <circle cx="665" cy="83" r="9" fill="#f5f5f5" stroke="#2b2b55" stroke-width="2"/>
+    <circle cx="692" cy="83" r="9" fill="#FF4D6D" stroke="#2b2b55" stroke-width="2"/>
+
+    <!-- avatar panel -->
+    <rect x="56" y="122" width="240" height="300" fill="#e9e9e9" stroke="#2b2b55" stroke-width="2"/>
+    <!-- custom avatar image (embedded as base64 so it always renders, no external file needed) -->
+    <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAImCAYAAACLjVmhAAARFElEQVR4nO3dz4ud1R3H8ZkSkdYk2MQkgoZuEqhdVCmU2I1GUKGhQijYRWhdNtJ13eiidKGb/AO6aAsWsuiiWKQpmIDalcEutItamHQhieDE3lAS20K7mK5SJjFzzn3ueZ7nc3+8XiCIz9znnrlzzTtnMt+c9a2tra01AGBUX0ovAABWkQADQIAAA0CAAANAgAADQIAAA0CAAANAwK5rVy+l1wAAK8cOGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAJ29X3DfQeP9H3LUTkfGSBj1fphBwwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABvZ8H3Mp5vACrKf3r/9jnEdsBA0CAAANAgAADQIAAA0CAAANAgAADQIAAA0CAAANAgAADQIAAA0CAAANAgAADQIAAA0CAAANAgAADQMDcnQcM82z/oaPpJSy0yeZGegkwN+yAASBAgAEgQIABIECAASBAgAEgQIABIECAASDAHDArZeg53iMPPVN+/r03Bn3+VpPre5oef+mjN4vXW19/c8QsEztgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgwB8xSaZ0zbZ/jne8535ra51ebE669fjWtc8TmhFkkdsAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAEGAOmFG1znHm53xX2+CvT+XrY06YZWIHDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAAB65PNja30IuAmc76U1M4jrs0JV+9vTpgR2QEDQIAAA0CAAANAgAADQIAAA0CAAANAgAADQIDzgFkqiz7ne/HiO8Xrx44dL15vnZOt3X/e1ebAW+eEoU92wAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQYA6YUQ193u/aWnkOuDYn2zpH3DqHe+6Fk8XrJ8680XFF/d4/fd5y7f611796/8r703nB9MkOGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAAC1iebG1vpRbA6anOW9Tnfyv0HnkMdes533s37nHDrHHDrecHmhOnCDhgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAswBM6rW84CPHTvez0JmdPHiO9Hnb50jbj1PuFX669c6x23Olz7ZAQNAgAADQIAAA0CAAANAgAADQIAAA0CAAANAgDlgRjX0ecDV56+cR1ub811fL9//9z892W1BS+bHv7hQvH7l2ufF661zwkOfB2wOmD7ZAQNAgAADQIAAA0CAAANAgAADQIAAA0CAAANAwK70AqBPtTnO/Y1zprU539bzdlvP+2019Ppb71+b0x56jhz6ZAcMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAHmgJkrtTnemtdOPVq8/su/Nd2+Osc69BxsWvrzq319T59te//U1M6zdl4wXdgBA0CAAANAgAADQIAAA0CAAANAgAADQIAAA0CAOWB6VZuTTPvZY/cWr/987Xjxeu082prv/fBXlY/4XdP9Ww29vmOV85hrX5/Ln3za9Py184Jb59ChCztgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgwB8xcqc1p1rSeB1ubU6357ONrxevPrtXmbPc1PX+rZ/9TXt9nHw/7/K3nCdfeP/v33ihev9T07NCNHTAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABJgDZlStc761Oc79jXO8ref9UlZ7fVvnsNfWyu+Pmtbzgoc+D3uyuTHo/RmXHTAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABJgDXjFDzym2nsc6tKHnfA98LXueb6v0+oefEy6rvj8b54RrzPmuFjtgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgwB7xiWucMa3PE6TnfVrU508n1PcXrJ868Ubx+7oWT3RY0Z2qfX03t9Z3385jN+dInO2AACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACFifbG5spRfB4qjNAQ99XuvQhj6Pdt7nXGuG/vyX/f1jDpjt7IABIECAASBAgAEgQIABIECAASBAgAEgQIABIMB5wDCi1vNwXzv1aNPznz77XvH6os/hwiKxAwaAAAEGgAABBoAAAQaAAAEGgAABBoAAAQaAAHPA3KJ23m/N5Pqe8v333mi6/9Ba53SPPPRMf4u5g8MP3D/o/Vst+3m/NbXPr/b/l/OCV4sdMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAEmANeMa1zvkPPuQ6tNqdaU/v8L330ZtP9W8/7bb3/6bPvNN2/9vpcvNj2+sz7HHFtDh62swMGgAABBoAAAQaAAAEGgAABBoAAAQaAAAEGgABzwKyU1vN+W+d8a4Y+73fo+7e+PvU587bzpFvPqzbnS5/sgAEgQIABIECAASBAgAEgQIABIECAASBAgAEgYH2yubGVXgTzo/W84Fa1Od3WOc7anO/DjzxevP7hB+8Wrw/t3Asnmx5/4swbvaxjVq2vb21OuPb1b9U6B1ybk55sbjTdn8ViBwwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAc4D5hatc4hDzxG3zvnWHDhwd9Pjh5ae423V+vpWzxuunidc1jpHbM6XLuyAASBAgAEgQIABIECAASBAgAEgQIABIECAASDAHDCjqp3nOrlefnxtzvLJp54uXr9w/q3yE1QMff9FV3t9hr7/hfPl90f9/dd23i90YQcMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAHmgBlVbY63Nqe5+6vfKV7/x/X/Fq+bE26Tfv1qX9/a+6Omet4w9MgOGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAAC1iebG1vpRcBN+w8dLV5vnRO9d+9dndfUxaLP+bYa+jzg1q9v69dnsrnR9HjYzg4YAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAKcBww9GnoOdujzdledOV/GZAcMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAHmgFkqf7r4dvH6os/Btp6HvOiW/evLarEDBoAAAQaAAAEGgAABBoAAAQaAAAEGgAABBoAAAQaAAAEGgAABBoAAAQaAAAEGgAABBoAAAQaAAAEGgAABBoAAAQaAAAEGgAABBoAAAQaAAAEGgAABBoAAAQaAgF3pBbBa9h86Wrz+8COPj7QSVlHt/VV7f042N/pcDivODhgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAswBM1cOHLg7vQSWmPcX88QOGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAKcB0yv9h86Wrz+8COPj7QS6K72/qy9vyebG30uhyVnBwwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAeaAGdWHH7xbvP7kU0+PtBL4otr7E/pkBwwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAeaAGdVLL71UvP7yyy+PtBKW0YXzbzU93vuTMdkBA0CAAANAgAADQIAAA0CAAANAgAADQIAAA0CAOWA62X/oaPH6uRdOFq+fqMxRPv/8812XdItXX3216fEsttb3T23Ot/b+rv3/Mdnc6LoklpgdMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAEmANmVNU54TPmeJld6xx47f0JfbIDBoAAAQaAAAEGgAABBoAAAQaAAAEGgAABBoAAc8Dconae6dBeO/Vo8frps++NtBKWUe39NTTnBbOdHTAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABJgDZqVcOP9W8fqTTz090kqGce/eu9JLaFL7+gzt8iefFq8ffuD+kVbCKrADBoAAAQaAAAEGgAABBoAAAQaAAAEGgAABBoCA9cnmxlZ6ESyPoc8Trp2XWnv+o99+rnh94/3XO6+J/rR+fVrfH62c50sXdsAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAEOA8YHo173OQe+7ZXbz+reM/GWklJMz7+5PVYgcMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAc4DhgVy9drfi9ev/Pk3xesPfvMHxesH993XeU3AbOyAASBAgAEgQIABIECAASBAgAEgQIABIECAASDAHDDMkdY5X2Bx2AEDQIAAA0CAAANAgAADQIAAA0CAAANAgAADQEDvc8D7Dh5pevy1q5d6WgkATG/sftkBA0CAAANAgAADQIAAA0CAAANAgAADQIAAA0CA84Bhjhzcd1/x+pWB7w+Mxw4YAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAnalF3C7fQePRJ//2tVL0ednWDf++Xnx+p57do+0Eu6k9vVhuaV//R+bHTAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAE9H4esPN0AZjFqvXDDhgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAJ27Tt4JL0GgF749YxFYgcMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAbvSC4A+vf717xavP/f+6033f+Ab3y9e/8o9u4vX91Suz7sb//y8eP1fleuf/OW3fS4HFpoAA7DwXjl89v///uLlU50f1+UxffEtaAAW2vb4jvG4vggwAAQIMAArLfHt57U1fwYMsJJeOXw2Fp6+vXj51EzfTu7r87/9z5FvX8tOzyPAACvmZiCmiXDph5t2it40YZvlh6bu9HzTrr/0cbP+ZuRO69npv93p/gIMsOLuFMPajrJ0vRS9LoGa5rmmfcxOz9HlNyO1NXVd5/rW1tZWp0dA0K8fOlG8/uCBfxevP/HHt5uef319venxq671l5u3H3uieP3KZ18uXv/RR+eann8ZtP7kb9dv926PWu1x0wb7To+ZZk2lHXzXHXDp+ab5VvQrh8/6ISwAdtb3n5Nuv2/tW9qzPCaty7ffBRhgxe0UjWl2pDejuP2fWZ9vp+e5/b47/fsszzOrPj5PfwYMsMJuRmLWnySe5jG1ne3ta5lG7WMTP+E9zbe4t/83O2AAvqA1YDd3rdNGvcufFc+L1m+H2wEDMLM+fno5Ed95iLwAAzCz28d3ZvlJ576eu/YcNz++r/ju9FPO/iIOAEbRJWi1edxpHjPk7nWWcabSY2//2O2/ARBg5krrnO/QWudYa59fzXN//UPT42vnJdfM+xxt7f1Re/3n/fNLadk13umx0+ySuz5m2ntN8xeI9KW22/dDWAArZJoRntpoz7QjONt/wrrr+voaZ+ry2L6+PV57jW5etwMGWDGzhnfaj93p8dP87VHTPKb0sbOEe9q54q73rRFgAEZx+w8p9b3L7fobi/RpUL4FDcCopv029rxr/RwEGAAC/gfa6bRZlAEPmwAAAABJRU5ErkJggg==" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAImCAYAAACLjVmhAAARFElEQVR4nO3dz4ud1R3H8ZkSkdYk2MQkgoZuEqhdVCmU2I1GUKGhQijYRWhdNtJ13eiidKGb/AO6aAsWsuiiWKQpmIDalcEutItamHQhieDE3lAS20K7mK5SJjFzzn3ueZ7nc3+8XiCIz9znnrlzzTtnMt+c9a2tra01AGBUX0ovAABWkQADQIAAA0CAAANAgAADQIAAA0CAAANAwK5rVy+l1wAAK8cOGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAJ29X3DfQeP9H3LUTkfGSBj1fphBwwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABvZ8H3Mp5vACrKf3r/9jnEdsBA0CAAANAgAADQIAAA0CAAANAgAADQIAAA0CAAANAgAADQIAAA0CAAANAgAADQIAAA0CAAANAgAADQMDcnQcM82z/oaPpJSy0yeZGegkwN+yAASBAgAEgQIABIECAASBAgAEgQIABIECAASDAHDArZeg53iMPPVN+/r03Bn3+VpPre5oef+mjN4vXW19/c8QsEztgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgwB8xSaZ0zbZ/jne8535ra51ebE669fjWtc8TmhFkkdsAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAEGAOmFG1znHm53xX2+CvT+XrY06YZWIHDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAAB65PNja30IuAmc76U1M4jrs0JV+9vTpgR2QEDQIAAA0CAAANAgAADQIAAA0CAAANAgAADQIDzgFkqiz7ne/HiO8Xrx44dL15vnZOt3X/e1ebAW+eEoU92wAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQYA6YUQ193u/aWnkOuDYn2zpH3DqHe+6Fk8XrJ8680XFF/d4/fd5y7f611796/8r703nB9MkOGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAAC1iebG1vpRbA6anOW9Tnfyv0HnkMdes533s37nHDrHHDrecHmhOnCDhgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAswBM6rW84CPHTvez0JmdPHiO9Hnb50jbj1PuFX669c6x23Olz7ZAQNAgAADQIAAA0CAAANAgAADQIAAA0CAAANAgDlgRjX0ecDV56+cR1ub811fL9//9z892W1BS+bHv7hQvH7l2ufF661zwkOfB2wOmD7ZAQNAgAADQIAAA0CAAANAgAADQIAAA0CAAANAwK70AqBPtTnO/Y1zprU539bzdlvP+2019Ppb71+b0x56jhz6ZAcMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAHmgJkrtTnemtdOPVq8/su/Nd2+Osc69BxsWvrzq319T59te//U1M6zdl4wXdgBA0CAAANAgAADQIAAA0CAAANAgAADQIAAA0CAOWB6VZuTTPvZY/cWr/987Xjxeu082prv/fBXlY/4XdP9Ww29vmOV85hrX5/Ln3za9Py184Jb59ChCztgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgwB8xcqc1p1rSeB1ubU6357ONrxevPrtXmbPc1PX+rZ/9TXt9nHw/7/K3nCdfeP/v33ihev9T07NCNHTAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABJgDZlStc761Oc79jXO8ref9UlZ7fVvnsNfWyu+Pmtbzgoc+D3uyuTHo/RmXHTAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABJgDXjFDzym2nsc6tKHnfA98LXueb6v0+oefEy6rvj8b54RrzPmuFjtgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgwB7xiWucMa3PE6TnfVrU508n1PcXrJ868Ubx+7oWT3RY0Z2qfX03t9Z3385jN+dInO2AACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACFifbG5spRfB4qjNAQ99XuvQhj6Pdt7nXGuG/vyX/f1jDpjt7IABIECAASBAgAEgQIABIECAASBAgAEgQIABIMB5wDCi1vNwXzv1aNPznz77XvH6os/hwiKxAwaAAAEGgAABBoAAAQaAAAEGgAABBoAAAQaAAHPA3KJ23m/N5Pqe8v333mi6/9Ba53SPPPRMf4u5g8MP3D/o/Vst+3m/NbXPr/b/l/OCV4sdMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAEmANeMa1zvkPPuQ6tNqdaU/v8L330ZtP9W8/7bb3/6bPvNN2/9vpcvNj2+sz7HHFtDh62swMGgAABBoAAAQaAAAEGgAABBoAAAQaAAAEGgABzwKyU1vN+W+d8a4Y+73fo+7e+PvU587bzpFvPqzbnS5/sgAEgQIABIECAASBAgAEgQIABIECAASBAgAEgYH2yubGVXgTzo/W84Fa1Od3WOc7anO/DjzxevP7hB+8Wrw/t3Asnmx5/4swbvaxjVq2vb21OuPb1b9U6B1ybk55sbjTdn8ViBwwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAc4D5hatc4hDzxG3zvnWHDhwd9Pjh5ae423V+vpWzxuunidc1jpHbM6XLuyAASBAgAEgQIABIECAASBAgAEgQIABIECAASDAHDCjqp3nOrlefnxtzvLJp54uXr9w/q3yE1QMff9FV3t9hr7/hfPl90f9/dd23i90YQcMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAHmgBlVbY63Nqe5+6vfKV7/x/X/Fq+bE26Tfv1qX9/a+6Omet4w9MgOGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAAC1iebG1vpRcBN+w8dLV5vnRO9d+9dndfUxaLP+bYa+jzg1q9v69dnsrnR9HjYzg4YAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAKcBww9GnoOdujzdledOV/GZAcMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAHmgFkqf7r4dvH6os/Btp6HvOiW/evLarEDBoAAAQaAAAEGgAABBoAAAQaAAAEGgAABBoAAAQaAAAEGgAABBoAAAQaAAAEGgAABBoAAAQaAAAEGgAABBoAAAQaAAAEGgAABBoAAAQaAAAEGgAABBoAAAQaAgF3pBbBa9h86Wrz+8COPj7QSVlHt/VV7f042N/pcDivODhgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAswBM1cOHLg7vQSWmPcX88QOGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAKcB0yv9h86Wrz+8COPj7QS6K72/qy9vyebG30uhyVnBwwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAeaAGdWHH7xbvP7kU0+PtBL4otr7E/pkBwwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAeaAGdVLL71UvP7yyy+PtBKW0YXzbzU93vuTMdkBA0CAAANAgAADQIAAA0CAAANAgAADQIAAA0CAOWA62X/oaPH6uRdOFq+fqMxRPv/8812XdItXX3216fEsttb3T23Ot/b+rv3/Mdnc6LoklpgdMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAEmANmVNU54TPmeJld6xx47f0JfbIDBoAAAQaAAAEGgAABBoAAAQaAAAEGgAABBoAAc8Dconae6dBeO/Vo8frps++NtBKWUe39NTTnBbOdHTAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABJgDZqVcOP9W8fqTTz090kqGce/eu9JLaFL7+gzt8iefFq8ffuD+kVbCKrADBoAAAQaAAAEGgAABBoAAAQaAAAEGgAABBoCA9cnmxlZ6ESyPoc8Trp2XWnv+o99+rnh94/3XO6+J/rR+fVrfH62c50sXdsAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAEOA8YHo173OQe+7ZXbz+reM/GWklJMz7+5PVYgcMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAc4DhgVy9drfi9ev/Pk3xesPfvMHxesH993XeU3AbOyAASBAgAEgQIABIECAASBAgAEgQIABIECAASDAHDDMkdY5X2Bx2AEDQIAAA0CAAANAgAADQIAAA0CAAANAgAADQEDvc8D7Dh5pevy1q5d6WgkATG/sftkBA0CAAANAgAADQIAAA0CAAANAgAADQIAAA0CA84Bhjhzcd1/x+pWB7w+Mxw4YAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAnalF3C7fQePRJ//2tVL0ednWDf++Xnx+p57do+0Eu6k9vVhuaV//R+bHTAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAE9H4esPN0AZjFqvXDDhgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAIEGAACBBgAAgQYAAJ27Tt4JL0GgF749YxFYgcMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAQIMAAECDAABAgwAAbvSC4A+vf717xavP/f+6033f+Ab3y9e/8o9u4vX91Suz7sb//y8eP1fleuf/OW3fS4HFpoAA7DwXjl89v///uLlU50f1+UxffEtaAAW2vb4jvG4vggwAAQIMAArLfHt57U1fwYMsJJeOXw2Fp6+vXj51EzfTu7r87/9z5FvX8tOzyPAACvmZiCmiXDph5t2it40YZvlh6bu9HzTrr/0cbP+ZuRO69npv93p/gIMsOLuFMPajrJ0vRS9LoGa5rmmfcxOz9HlNyO1NXVd5/rW1tZWp0dA0K8fOlG8/uCBfxevP/HHt5uef319venxq671l5u3H3uieP3KZ18uXv/RR+eann8ZtP7kb9dv926PWu1x0wb7To+ZZk2lHXzXHXDp+ab5VvQrh8/6ISwAdtb3n5Nuv2/tW9qzPCaty7ffBRhgxe0UjWl2pDejuP2fWZ9vp+e5/b47/fsszzOrPj5PfwYMsMJuRmLWnySe5jG1ne3ta5lG7WMTP+E9zbe4t/83O2AAvqA1YDd3rdNGvcufFc+L1m+H2wEDMLM+fno5Ed95iLwAAzCz28d3ZvlJ576eu/YcNz++r/ju9FPO/iIOAEbRJWi1edxpHjPk7nWWcabSY2//2O2/ARBg5krrnO/QWudYa59fzXN//UPT42vnJdfM+xxt7f1Re/3n/fNLadk13umx0+ySuz5m2ntN8xeI9KW22/dDWAArZJoRntpoz7QjONt/wrrr+voaZ+ry2L6+PV57jW5etwMGWDGzhnfaj93p8dP87VHTPKb0sbOEe9q54q73rRFgAEZx+w8p9b3L7fobi/RpUL4FDcCopv029rxr/RwEGAAC/gfa6bRZlAEPmwAAAABJRU5ErkJggg==" x="76" y="122" width="200" height="230" preserveAspectRatio="xMidYMid meet"/>
+    <text x="176" y="410" text-anchor="middle" font-family="Courier New, monospace" font-size="13" fill="#2b2b55">All Programs ▶</text>
+
+    <!-- stats panel -->
+    <g font-family="Courier New, monospace" font-size="16" fill="#1a1a3d" font-weight="bold">
+      <text x="320" y="155">◆ LVL 22 — AI/ML Engineer</text>
+      <text x="320" y="190">◆ CS Undergrad, VIT-AP</text>
+      <text x="320" y="225">◆ Ex-Intern @ Quiddity</text>
+      <text x="320" y="260">◆ Focus: Agentic Systems &amp; RAG</text>
+    </g>
+    <text x="320" y="310" font-family="Courier New, monospace" font-size="15" fill="#2b2b55">a builder who wants to know</text>
+    <text x="320" y="332" font-family="Courier New, monospace" font-size="15" fill="#2b2b55">why things fail, not just that</text>
+    <text x="320" y="354" font-family="Courier New, monospace" font-size="15" fill="#2b2b55">they did</text>
+    <text x="320" y="385" font-family="Courier New, monospace" font-size="22" fill="#FF4D6D">♥</text>
+
+    <!-- bottom buttons -->
+    <rect x="120" y="440" width="180" height="34" rx="4" fill="#c9a24a" stroke="#2b2b55" stroke-width="2"/>
+    <text x="145" y="462" font-family="Courier New, monospace" font-size="14" fill="#2b1a00" font-weight="bold">▶ View Projects</text>
+    <rect x="330" y="440" width="150" height="34" rx="4" fill="#c94a4a" stroke="#2b2b55" stroke-width="2"/>
+    <text x="358" y="462" font-family="Courier New, monospace" font-size="14" fill="#fff" font-weight="bold">⏻ Contact</text>
+  </g>
+
+  <!-- ============ FLOATING WINDOW: currently.exe ============ -->
+  <g>
+    <rect x="720" y="80" width="320" height="60" fill="#dbe9ff" stroke="#2b2b55" stroke-width="2"/>
+    <rect x="720" y="80" width="320" height="34" fill="url(#titlebar)"/>
+    <text x="732" y="102" font-family="Courier New, monospace" font-size="15" fill="#ffffff" font-weight="bold">new.exe</text>
+    <circle cx="1005" cy="97" r="7" fill="#f5f5f5" stroke="#2b2b55" stroke-width="1.5"/>
+    <circle cx="1025" cy="97" r="7" fill="#FF4D6D" stroke="#2b2b55" stroke-width="1.5"/>
+  </g>
+
+  <!-- ============ FLOATING WINDOW: building.exe ============ -->
+  <g>
+    <rect x="760" y="130" width="320" height="230" fill="#dbe9ff" stroke="#2b2b55" stroke-width="2"/>
+    <rect x="760" y="130" width="320" height="34" fill="url(#titlebar)"/>
+    <text x="770" y="152" font-family="Courier New, monospace" font-size="14" fill="#ffffff" font-weight="bold">currently_building.exe</text>
+    <circle cx="1035" cy="147" r="7" fill="#f5f5f5" stroke="#2b2b55" stroke-width="1.5"/>
+    <circle cx="1055" cy="147" r="7" fill="#FF4D6D" stroke="#2b2b55" stroke-width="1.5"/>
+    <g font-family="Courier New, monospace" font-size="17" fill="#1a1a3d">
+      <text x="776" y="185" font-size="15">self-correcting code agents</text>
+      <text x="776" y="212" font-size="15">docker sandboxes</text>
+      <text x="776" y="239" font-size="15">retrieval pipelines</text>
+      <text x="776" y="266" font-size="15">retry &amp; validation logic</text>
+      <text x="776" y="293" font-size="15">multilingual RAG</text>
+      <text x="776" y="320" font-size="15">structure-aware chunking</text>
+    </g>
+  </g>
+
+  <!-- ============ FLOATING WINDOW: always.exe ============ -->
+  <g>
+    <rect x="720" y="380" width="320" height="200" fill="#dbe9ff" stroke="#2b2b55" stroke-width="2"/>
+    <rect x="720" y="380" width="320" height="34" fill="url(#titlebar)"/>
+    <text x="730" y="402" font-family="Courier New, monospace" font-size="14" fill="#ffffff" font-weight="bold">always_debugging.exe</text>
+    <circle cx="1005" cy="397" r="7" fill="#f5f5f5" stroke="#2b2b55" stroke-width="1.5"/>
+    <circle cx="1025" cy="397" r="7" fill="#FF4D6D" stroke="#2b2b55" stroke-width="1.5"/>
+    <g font-family="Courier New, monospace" font-size="17" fill="#1a1a3d">
+      <text x="736" y="435">silent failures</text>
+      <text x="736" y="462">flaky edge cases</text>
+      <text x="736" y="489">off-by-one errors</text>
+      <text x="736" y="516" font-size="15">"it worked on my machine"</text>
+    </g>
+  </g>
+
+  <!-- ============ TASKBAR ============ -->
+  <g>
+    <rect x="0" y="560" width="1200" height="40" fill="#1a1a3d"/>
+    <rect x="10" y="566" width="110" height="28" rx="4" fill="#5AB33E"/>
+    <text x="30" y="586" font-family="Courier New, monospace" font-size="16" fill="#ffffff" font-weight="bold">Start</text>
+    <rect x="140" y="568" width="110" height="24" fill="#2e2e5e"/>
+    <text x="148" y="585" font-family="Courier New, monospace" font-size="12" fill="#dbe9ff">new.exe</text>
+    <rect x="260" y="568" width="180" height="24" fill="#2e2e5e"/>
+    <text x="268" y="585" font-family="Courier New, monospace" font-size="12" fill="#dbe9ff">currently_building.exe</text>
+    <rect x="450" y="568" width="170" height="24" fill="#2e2e5e"/>
+    <text x="458" y="585" font-family="Courier New, monospace" font-size="12" fill="#dbe9ff">always_debugging.exe</text>
+  </g>
+</svg>
