@@ -24,7 +24,7 @@
 ```
 
 <p align="center">
-  <img src="./about-card.svg" width="100%"/>
+  <img src="./about-card (1).svg" width="100%"/>
 </p>
 
 <br>
