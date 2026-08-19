@@ -1,0 +1,78 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="45%" stop-color="#FF6EC7"/>
+      <stop offset="100%" stop-color="#4FD1FF"/>
+    </linearGradient>
+    <linearGradient id="blob1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE066"/>
+      <stop offset="100%" stop-color="#FF6EC7"/>
+    </linearGradient>
+    <linearGradient id="blob2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4FD1FF"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5f5f5"/>
+      <stop offset="100%" stop-color="#c9c9d6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#bg)"/>
+
+  <!-- checkerboard corner accent, top-left -->
+  <g opacity="0.35">
+    <rect x="0" y="0" width="20" height="20" fill="#ffffff"/>
+    <rect x="20" y="20" width="20" height="20" fill="#ffffff"/>
+    <rect x="40" y="0" width="20" height="20" fill="#ffffff"/>
+    <rect x="0" y="40" width="20" height="20" fill="#ffffff"/>
+    <rect x="60" y="20" width="20" height="20" fill="#ffffff"/>
+    <rect x="80" y="0" width="20" height="20" fill="#ffffff"/>
+  </g>
+  <!-- checkerboard corner accent, bottom-right -->
+  <g opacity="0.35">
+    <rect x="1180" y="320" width="20" height="20" fill="#ffffff"/>
+    <rect x="1160" y="300" width="20" height="20" fill="#ffffff"/>
+    <rect x="1140" y="320" width="20" height="20" fill="#ffffff"/>
+    <rect x="1180" y="280" width="20" height="20" fill="#ffffff"/>
+    <rect x="1120" y="300" width="20" height="20" fill="#ffffff"/>
+    <rect x="1100" y="320" width="20" height="20" fill="#ffffff"/>
+  </g>
+
+  <!-- soft holographic blobs -->
+  <ellipse cx="140" cy="260" rx="110" ry="70" fill="url(#blob1)" opacity="0.55"/>
+  <ellipse cx="1080" cy="70" rx="130" ry="80" fill="url(#blob2)" opacity="0.55"/>
+
+  <!-- sparkles -->
+  <g fill="#ffffff">
+    <path d="M90 60 l6 18 l18 6 l-18 6 l-6 18 l-6 -18 l-18 -6 l18 -6 z"/>
+    <path d="M1060 220 l5 14 l14 5 l-14 5 l-5 14 l-5 -14 l-14 -5 l14 -5 z"/>
+    <path d="M220 40 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4 z"/>
+    <path d="M950 280 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4 z"/>
+    <path d="M40 180 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4 z"/>
+    <path d="M1140 150 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4 z"/>
+  </g>
+
+  <!-- retro window mockup -->
+  <g>
+    <rect x="290" y="55" width="620" height="230" rx="6" fill="url(#chrome)" stroke="#4a4a55" stroke-width="3"/>
+    <!-- title bar -->
+    <rect x="290" y="55" width="620" height="34" rx="6" fill="#8B5CF6"/>
+    <rect x="290" y="72" width="620" height="17" fill="#8B5CF6"/>
+    <text x="308" y="78" font-family="Courier New, monospace" font-size="15" fill="#ffffff" font-weight="bold">ruthcaroliine.exe</text>
+    <!-- window buttons -->
+    <rect x="820" y="63" width="18" height="18" fill="#f5f5f5" stroke="#4a4a55" stroke-width="2"/>
+    <rect x="845" y="63" width="18" height="18" fill="#f5f5f5" stroke="#4a4a55" stroke-width="2"/>
+    <rect x="870" y="63" width="18" height="18" fill="#FF6EC7" stroke="#4a4a55" stroke-width="2"/>
+    <text x="875" y="77" font-family="Courier New, monospace" font-size="13" fill="#4a4a55" font-weight="bold">x</text>
+
+    <!-- window body -->
+    <text x="600" y="150" text-anchor="middle" font-family="Courier New, monospace" font-size="42" fill="#2b2b36" font-weight="bold" letter-spacing="2">RUTHCAROLIINE</text>
+    <text x="600" y="185" text-anchor="middle" font-family="Courier New, monospace" font-size="18" fill="#7a4fd1" font-weight="bold" letter-spacing="4">AI / ML ENGINEER</text>
+
+    <!-- fake status bar -->
+    <rect x="308" y="245" width="584" height="24" fill="#e7e7ef" stroke="#4a4a55" stroke-width="1.5"/>
+    <text x="318" y="262" font-family="Courier New, monospace" font-size="12" fill="#4a4a55">Status: Ready | Building self-correcting systems...</text>
+  </g>
+</svg>
