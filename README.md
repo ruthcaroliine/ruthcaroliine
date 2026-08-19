@@ -12,7 +12,6 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/🚧_UNDER_CONSTRUCTION_🚧-FF6EC7?style=for-the-badge&labelColor=8B5CF6"/>
   <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=4FD1FF&style=for-the-badge&label=PROFILE+VIEWS"/>
 </p>
 
@@ -20,7 +19,7 @@
 
 ```
 ╔══════════════════════════════════════╗
-║  📁 ABOUT.EXE                         ║
+║  ABOUT.EXE                         ║
 ╚══════════════════════════════════════╝
 ```
 
@@ -38,7 +37,7 @@
 
 ```
 ╔══════════════════════════════════════╗
-║  💾 STACK.EXE                         ║
+║  STACK.EXE                         ║
 ╚══════════════════════════════════════╝
 ```
 
@@ -62,7 +61,7 @@
 
 ```
 ╔══════════════════════════════════════╗
-║  📂 PROJECTS.EXE                      ║
+║  PROJECTS.EXE                      ║
 ╚══════════════════════════════════════╝
 ```
 
@@ -135,7 +134,7 @@ flowchart TD
 
 ```
 ╔══════════════════════════════════════╗
-║  ✉️  CONTACT.EXE                      ║
+║   CONTACT.EXE                      ║
 ╚══════════════════════════════════════╝
 ```
 
@@ -151,4 +150,3 @@ flowchart TD
 <p align="center">
   <img src="./footer-taskbar.svg" width="100%"/>
 </p>
-
