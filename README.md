@@ -1,56 +1,71 @@
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=egg&color=0:000000,100:E63946&height=150&section=header&text=Hi%2C%20I'm%20ruthcaroliine&fontColor=ffffff&fontSize=40&fontAlignY=55&animation=fadeIn&desc=AI%2FML%20Engineer&descAlignY=80&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=egg&color=0:8B5CF6,50:FF6EC7,100:4FD1FF&height=160&section=header&text=ruthcaroliine&fontColor=ffffff&fontSize=40&fontAlignY=55&animation=fadeIn&desc=AI%2FML%20ENGINEER&descAlignY=80&descAlign=50" width="100%"/>
 </p>
-
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=1200&color=E63946&center=true&vCenter=true&width=560&lines=AI%2FML+enthusiast;ex-intern+%40+quiddity+infotech+llc;building+self-correcting+systems" alt="terminal typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=12&duration=2800&pause=1200&color=FF6EC7&center=true&vCenter=true&width=560&lines=LOADING+PORTFOLIO...;AI%2FML+ENTHUSIAST;EX-INTERN+%40+QUIDDITY" alt="typing" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/🚧_UNDER_CONSTRUCTION_🚧-FF6EC7?style=for-the-badge&labelColor=8B5CF6"/>
+</p>
 
-<p align="center"><img src="https://img.shields.io/badge/-black?style=flat-square&color=E63946&label=%20" height="3" width="60%"/></p>
-
-```
-┌──(ruthcaroliine@github)-[~]
-└─$ cat about.md
-```
-
-Computer Science undergrad specializing in AI/ML at VIT-AP University. Previously interned at Quiddity in Hyderabad, building a multilingual RAG agent from parsing to retrieval.
-
-I care about what a system does when it fails — silent failure vs. self-diagnosis and recovery. That's the thread running through everything below.
+<br>
 
 ```
+╔══════════════════════════════════════╗
+║  📁 ABOUT.EXE                         ║
+╚══════════════════════════════════════╝
+```
 
-┌──(ruthcaroliine@github)-[~]
-└─$ ls stack/
+Computer Science undergrad specializing in AI/ML at VIT-AP University. Previously interned at Quiddity in Hyderabad, building a multilingual RAG agent from parsing to retrieval. ✨
 
+I care about what a system does when it fails — silent failure vs. self-diagnosis and recovery. That's the thread running through everything below. 👾
+
+<br>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/-✦-8B5CF6?style=flat-square" height="4"/>
+  <img src="https://img.shields.io/badge/-✦-FF6EC7?style=flat-square" height="4"/>
+  <img src="https://img.shields.io/badge/-✦-4FD1FF?style=flat-square" height="4"/>
+</p>
+
+```
+╔══════════════════════════════════════╗
+║  💾 STACK.EXE                         ║
+╚══════════════════════════════════════╝
 ```
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=E63946" />
-  <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=E63946" />
-  <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=E63946" />
-  <img src="https://img.shields.io/badge/Milvus-000000?style=for-the-badge&logo=milvus&logoColor=E63946" />
-  <img src="https://img.shields.io/badge/Gemini_API-000000?style=for-the-badge&logo=googlegemini&logoColor=E63946" />
-  <img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=postgresql&logoColor=E63946" />
-  <img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk&logoColor=E63946" />
-  <img src="https://img.shields.io/badge/pandas-000000?style=for-the-badge&logo=pandas&logoColor=E63946" />
-  <img src="https://img.shields.io/badge/pytest-000000?style=for-the-badge&logo=pytest&logoColor=E63946" />
+  <img src="https://img.shields.io/badge/Python-8B5CF6?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-FF6EC7?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-4FD1FF?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Milvus-8B5CF6?style=for-the-badge&logo=milvus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gemini_API-FF6EC7?style=for-the-badge&logo=googlegemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-4FD1FF?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-8B5CF6?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/pandas-FF6EC7?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/pytest-4FD1FF?style=for-the-badge&logo=pytest&logoColor=white" />
 </p>
 
-<p align="center"><img src="https://img.shields.io/badge/-black?style=flat-square&color=E63946&label=%20" height="3" width="60%"/></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/-✦-8B5CF6?style=flat-square" height="4"/>
+  <img src="https://img.shields.io/badge/-✦-FF6EC7?style=flat-square" height="4"/>
+  <img src="https://img.shields.io/badge/-✦-4FD1FF?style=flat-square" height="4"/>
+</p>
 
 ```
-┌──(ruthcaroliine@github)-[~]
-└─$ ls projects/
+╔══════════════════════════════════════╗
+║  📂 PROJECTS.EXE                      ║
+╚══════════════════════════════════════╝
 ```
 
-### `01_developer-knowledge-assistant`
+### 💿 developer-knowledge-assistant.exe
 RAG-powered assistant for codebases — embeddings, vector search, FastAPI backend.
 
 ```mermaid
-%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#000000','primaryTextColor':'#ffffff','primaryBorderColor':'#E63946','lineColor':'#E63946','tertiaryColor':'#000000'}}}%%
+%%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#FF6EC7','primaryTextColor':'#ffffff','primaryBorderColor':'#8B5CF6','lineColor':'#4FD1FF','tertiaryColor':'#f3e8ff'}}}%%
 flowchart LR
     A[Codebase] --> B[Chunk & Embed]
     B --> C[(Vector Store)]
@@ -58,26 +73,26 @@ flowchart LR
     C --> E
     E --> F[LLM Answer]
 ```
-[→ repo](https://github.com/ruthcaroliine/developers-knowledge-assistant)
+[→ repo](#)
 
-### `02_text-to-sql-interface`
+### 💿 text-to-sql-interface.exe
 Translates natural language questions into SQL queries against a real database schema.
 
 ```mermaid
-%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#000000','primaryTextColor':'#ffffff','primaryBorderColor':'#E63946','lineColor':'#E63946','tertiaryColor':'#000000'}}}%%
+%%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#4FD1FF','primaryTextColor':'#1a1a1a','primaryBorderColor':'#8B5CF6','lineColor':'#FF6EC7','tertiaryColor':'#e0f7ff'}}}%%
 flowchart LR
     A[Question] --> B[LLM + Schema]
     B --> C[SQL]
     C --> D[(Database)]
     D --> E[Result]
 ```
-[→ repo](https://github.com/ruthcaroliine/text-to-sql)
+[→ repo](#)
 
-### `03_multilingual-rag-agent`
+### 💿 multilingual-rag-agent.exe
 Hybrid retrieval over multilingual, OCR'd documents — structure-aware chunking, Milvus, Gemini API.
 
 ```mermaid
-%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#000000','primaryTextColor':'#ffffff','primaryBorderColor':'#E63946','lineColor':'#E63946','tertiaryColor':'#000000'}}}%%
+%%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#8B5CF6','primaryTextColor':'#ffffff','primaryBorderColor':'#FF6EC7','lineColor':'#4FD1FF','tertiaryColor':'#f3e8ff'}}}%%
 flowchart LR
     A[Document] --> B[OCR / Parse]
     B --> C[Translate]
@@ -87,13 +102,13 @@ flowchart LR
     E --> G
     G --> H[Gemini Answer]
 ```
-[→ repo](https://github.com/ruthcaroliine/buildingRAG)
+[→ repo](#)
 
-### `04_autonomous-coding-agent` `IN_PROGRESS`
+### 💿 autonomous-coding-agent.exe `[IN PROGRESS]`
 Self-correcting code execution: generate, sandbox, observe, fix, retry. Design complete, build underway.
 
 ```mermaid
-%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#000000','primaryTextColor':'#ffffff','primaryBorderColor':'#E63946','lineColor':'#E63946','tertiaryColor':'#000000'}}}%%
+%%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#FF6EC7','primaryTextColor':'#ffffff','primaryBorderColor':'#4FD1FF','lineColor':'#8B5CF6','tertiaryColor':'#ffe4f3'}}}%%
 flowchart TD
     A[Task] --> B[Generate Code]
     B --> C[Docker Sandbox]
@@ -105,20 +120,25 @@ flowchart TD
     G -->|no| F
     G -->|yes| H[Done]
 ```
-[→ repo](https://github.com/ruthcaroliine/Autonomous-Coding-Agent)
-
-<p align="center"><img src="https://img.shields.io/badge/-black?style=flat-square&color=E63946&label=%20" height="3" width="60%"/></p>
-
-```
-┌──(ruthcaroliine@github)-[~]
-└─$ cat contact.txt
-```
-
-LinkedIn: [https://www.linkedin.com/in/ruth-caroline-010a09289/]
-Email: [modiruthcaroline@gmail.com]
-LeetCode: [https://leetcode.com/u/ruthcaroliine/]
+[→ repo](#)
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=egg&color=0:E63946,100:000000&height=80&section=footer" width="100%"/>
+  <img src="https://img.shields.io/badge/-✦-8B5CF6?style=flat-square" height="4"/>
+  <img src="https://img.shields.io/badge/-✦-FF6EC7?style=flat-square" height="4"/>
+  <img src="https://img.shields.io/badge/-✦-4FD1FF?style=flat-square" height="4"/>
 </p>
 
+```
+╔══════════════════════════════════════╗
+║  ✉️  CONTACT.EXE                      ║
+╚══════════════════════════════════════╝
+```
+
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-FF6EC7?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=egg&color=0:4FD1FF,50:FF6EC7,100:8B5CF6&height=80&section=footer" width="100%"/>
+</p>
