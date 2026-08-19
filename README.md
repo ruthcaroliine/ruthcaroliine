@@ -1,6 +1,10 @@
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=egg&color=0:8B5CF6,50:FF6EC7,100:4FD1FF&height=160&section=header&text=ruthcaroliine&fontColor=ffffff&fontSize=40&fontAlignY=55&animation=fadeIn&desc=AI%2FML%20ENGINEER&descAlignY=80&descAlign=50" width="100%"/>
+  <img src="./banner.svg" width="100%"/>
+</p>
+
+<p align="center">
+  <sub>💾 My Computer&nbsp;&nbsp;&nbsp;📁 My Documents&nbsp;&nbsp;&nbsp;🗑️ Recycle Bin&nbsp;&nbsp;&nbsp;💿 Portfolio.exe</sub>
 </p>
 
 <p align="center">
@@ -9,6 +13,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/🚧_UNDER_CONSTRUCTION_🚧-FF6EC7?style=for-the-badge&labelColor=8B5CF6"/>
+  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=4FD1FF&style=for-the-badge&label=PROFILE+VIEWS"/>
 </p>
 
 <br>
@@ -140,5 +145,14 @@ flowchart TD
 </p>
 
 <p align="center">
+  <sub>◄ prev&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;member of the ai/ml webring&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;next ►</sub>
+</p>
+
+<p align="center">
+  <sub>best viewed at 1024x768 · thanks for stopping by 💾</sub>
+</p>
+
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=egg&color=0:4FD1FF,50:FF6EC7,100:8B5CF6&height=80&section=footer" width="100%"/>
 </p>
+
