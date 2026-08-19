@@ -77,7 +77,7 @@ flowchart LR
     C --> E
     E --> F[LLM Answer]
 ```
-[→ repo](#)
+[→ repo](https://github.com/ruthcaroliine/developers-knowledge-assistant)
 
 ### 💿 text-to-sql-interface.exe
 Translates natural language questions into SQL queries against a real database schema.
@@ -90,7 +90,7 @@ flowchart LR
     C --> D[(Database)]
     D --> E[Result]
 ```
-[→ repo](#)
+[→ repo](https://github.com/ruthcaroliine/text-to-sql)
 
 ### 💿 multilingual-rag-agent.exe
 Hybrid retrieval over multilingual, OCR'd documents — structure-aware chunking, Milvus, Gemini API.
@@ -106,7 +106,7 @@ flowchart LR
     E --> G
     G --> H[Gemini Answer]
 ```
-[→ repo](#)
+[→ repo](https://github.com/ruthcaroliine/buildingRAG)
 
 ### 💿 autonomous-coding-agent.exe `[IN PROGRESS]`
 Self-correcting code execution: generate, sandbox, observe, fix, retry. Design complete, build underway.
@@ -124,7 +124,7 @@ flowchart TD
     G -->|no| F
     G -->|yes| H[Done]
 ```
-[→ repo](#)
+[→ repo](https://github.com/ruthcaroliine/Autonomous-Coding-Agent)
 
 <p align="center">
   <img src="https://img.shields.io/badge/-✦-8B5CF6?style=flat-square" height="4"/>
@@ -139,8 +139,8 @@ flowchart TD
 ```
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-FF6EC7?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/ruth-caroline-010a09289/"><img src="https://img.shields.io/badge/LinkedIn-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="modiruthcaroline@gmail.com"><img src="https://img.shields.io/badge/Email-FF6EC7?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
 <p align="center">
