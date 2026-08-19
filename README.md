@@ -24,9 +24,9 @@
 ╚══════════════════════════════════════╝
 ```
 
-Computer Science undergrad specializing in AI/ML at VIT-AP University. Previously interned at Quiddity in Hyderabad, building a multilingual RAG agent from parsing to retrieval. ✨
-
-I care about what a system does when it fails — silent failure vs. self-diagnosis and recovery. That's the thread running through everything below. 👾
+<p align="center">
+  <img src="./about-card.svg" width="100%"/>
+</p>
 
 <br>
 
@@ -149,10 +149,6 @@ flowchart TD
 </p>
 
 <p align="center">
-  <sub>best viewed at 1024x768 · thanks for stopping by 💾</sub>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=egg&color=0:4FD1FF,50:FF6EC7,100:8B5CF6&height=80&section=footer" width="100%"/>
+  <img src="./footer-taskbar.svg" width="100%"/>
 </p>
 
