@@ -68,62 +68,25 @@
 ### 💿 developer-knowledge-assistant.exe
 RAG-powered assistant for codebases — embeddings, vector search, FastAPI backend.
 
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#FF6EC7','primaryTextColor':'#ffffff','primaryBorderColor':'#8B5CF6','lineColor':'#4FD1FF','tertiaryColor':'#f3e8ff'}}}%%
-flowchart LR
-    A[Codebase] --> B[Chunk & Embed]
-    B --> C[(Vector Store)]
-    D[Question] --> E[Retrieve]
-    C --> E
-    E --> F[LLM Answer]
-```
+
 [→ repo](https://github.com/ruthcaroliine/developers-knowledge-assistant)
 
 ### 💿 text-to-sql-interface.exe
 Translates natural language questions into SQL queries against a real database schema.
 
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#4FD1FF','primaryTextColor':'#1a1a1a','primaryBorderColor':'#8B5CF6','lineColor':'#FF6EC7','tertiaryColor':'#e0f7ff'}}}%%
-flowchart LR
-    A[Question] --> B[LLM + Schema]
-    B --> C[SQL]
-    C --> D[(Database)]
-    D --> E[Result]
-```
+
 [→ repo](https://github.com/ruthcaroliine/text-to-sql)
 
 ### 💿 multilingual-rag-agent.exe
 Hybrid retrieval over multilingual, OCR'd documents — structure-aware chunking, Milvus, Gemini API.
 
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#8B5CF6','primaryTextColor':'#ffffff','primaryBorderColor':'#FF6EC7','lineColor':'#4FD1FF','tertiaryColor':'#f3e8ff'}}}%%
-flowchart LR
-    A[Document] --> B[OCR / Parse]
-    B --> C[Translate]
-    C --> D[Chunk]
-    D --> E[(Milvus)]
-    F[Query] --> G[Retrieve]
-    E --> G
-    G --> H[Gemini Answer]
-```
+
 [→ repo](https://github.com/ruthcaroliine/buildingRAG)
 
 ### 💿 autonomous-coding-agent.exe `[IN PROGRESS]`
 Self-correcting code execution: generate, sandbox, observe, fix, retry. Design complete, build underway.
 
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#FF6EC7','primaryTextColor':'#ffffff','primaryBorderColor':'#4FD1FF','lineColor':'#8B5CF6','tertiaryColor':'#ffe4f3'}}}%%
-flowchart TD
-    A[Task] --> B[Generate Code]
-    B --> C[Docker Sandbox]
-    C --> D{Success?}
-    D -->|no| F[Analyze Failure]
-    F --> B
-    D -->|yes| E[Validate]
-    E --> G{Valid?}
-    G -->|no| F
-    G -->|yes| H[Done]
-```
+
 [→ repo](https://github.com/ruthcaroliine/Autonomous-Coding-Agent)
 
 <p align="center">
